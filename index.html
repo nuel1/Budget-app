@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/img/icongeek26.jpg" sizes="18x18">
+    <link rel="stylesheet" href="style.css">
+    <title>Budget app</title>
+</head>
+<body>
+    
+    <div class="page-container">
+
+        <!-- {{Loader markup....}} -->
+
+        <div class="page-loader-wrapper">
+            <div class="loader-box">
+                <div class="entities">
+                    <div></div>
+                </div>
+                <div class="entities">
+                    <div></div>
+                </div>
+                <div class="entities">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- {{End}} -->
+
+        <!-- {{Model/Pop up markup }} -->
+
+        <div class="model-wrapper display-n fadeOut">
+            <div class="m-holder">
+                <div class="m-box m-adjustUpward">
+                    <header>
+                        <div class="vector-box">
+                            <img src="assets/img/icongeek26.jpg" alt="">
+                        </div>
+                    </header>
+                    <footer>
+                        <div class="m-content">
+                            <p>
+                                Hey dear! Want to plan your budget for the weekend?
+                                You're right on time! Enjoy the easy to use tools 
+                                and experience with our budget app. 
+                            </p>
+                        </div>
+                        <div class="m-close-btn">
+                            <button class="close-m">Continue</button>
+                        </div>
+                    </footer>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- {{End}} -->
+
+
+        <div class="main display-n">
+            <div class="container">
+                <div class="grid column-wrapper">
+                    <div class="col-1-row-1 section">
+                        <div class="card toLeft display-n fadeOut">
+                            <div class="form-wrapper">
+                                <form class="form-one--js">
+                                    <div class="form-details">
+                                        <h3>Please Enter Your Budget</h3>
+                                        <div class="input-wrapper">
+                                            <div class="input-title">
+                                                <span class="zoomIn">Budget</span>
+                                            </div>
+                                            <input type="text" name="budget" id ="input" required>
+                                        </div>
+                                    </div>
+                                    <div class="btn-wrapper">
+                                        <button class="cal-btn btn">Calculate</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="card toLeft display-n fadeOut">
+                            <div class="form-wrapper">
+                                <form class="form-two--js">
+                                    <div class="form-details">
+                                        <h3>Please Enter Your Expenses</h3>
+                                        <div class="input-wrapper">
+                                            <div class="input-title">
+                                                <span class="zoomIn">Expenses</span>
+                                            </div>
+                                            <input type="text" name="expenses" id ="input" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-details">
+                                        <h3>Please Enter Expenses Amount</h3>
+                                        <div class="input-wrapper">
+                                            <div class="input-title">
+                                                <span class="zoomIn">Amount</span>
+                                            </div>
+                                            <input type="text" name="amount" id ="input" required>
+                                        </div>
+                                    </div>
+                                    <div class="btn-wrapper">
+                                        <button class="add-btn btn">Add Expenses</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section col-2-row-1 toTop display-n fadeOut">
+                        <div class="d-box">
+                            <header class="toLeft fadeOut">
+                                <div class="title-wrapper">
+                                    <div class="title title-one">
+                                        <h1>BUDGET</h1>
+                                        <div class="img-box shrink">
+                                            <img src="assets/img/376530.png" alt="">
+                                        </div>
+                                        <div class="b-box bg-box display-b fadeIn"></div>
+                                        <span class="b-val display-n fadeOut"></span>
+                                    </div>
+                                    <div class="title title-two">
+                                        <h1>EXPENSES</h1>
+                                        <div class="img-box shrink">
+                                            <img src="assets/img/2325897.png" alt="">
+                                        </div>
+                                        <div class="e-box bg-box display-b fadeIn"></div>
+                                        <span class="e-val display-n fadeOut"></span>
+                                    </div>
+                                    <div class="title title-three">
+                                        <h1>BALANCE</h1>
+                                        <div class="img-box shrink">
+                                            <img src="assets/img/4111374.png" alt="">
+                                        </div>
+                                        <div class="bb-box bg-box display-b fadeIn"></div>
+                                        <span class="bb-val display-n fadeOut"></span>
+                                    </div>
+                                </div>
+                            </header>
+                            <footer class="toLeft fadeOut">
+                                <div class="e-wrapper">
+                                    <div class="title">
+                                        <h2>EXPENSES LIST</h2>
+                                        <span class="e-checker">Item tray is currently empty</span>
+                                    </div>
+                                    <div class="r-img-wrapper">
+                                        <div class="bg-img-box fadeOut">
+                                            <img src="assets/img/Cute_cat_sleeping_cartoon_art_illustration.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <ul class="e-list display-n"></ul>
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
